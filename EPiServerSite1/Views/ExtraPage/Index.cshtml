@@ -1,0 +1,10 @@
+﻿@using EPiServerSite1
+
+@model PageViewModel<EPiServerSite1.Models.Pages.ExtraPage>
+
+@{ Layout = "~/Views/Shared/Layouts/_LeftNavigation.cshtml"; }
+
+
+    <h1>@Html.PropertyFor(x => x.CurrentPage.MainBody)</h1>
+
+
